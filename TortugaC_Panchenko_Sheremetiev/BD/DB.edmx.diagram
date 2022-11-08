@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74b287080ad3464a8f97a16daaaf08fd" Name="Diagram1">
+        <EntityTypeShape EntityType="TortugaCModel.Booking" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.Category" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.Dish" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.Order" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.OrderDish" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TortugaCModel.Table" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="TortugaCModel.FK_Booking_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="TortugaCModel.FK_Dish_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TortugaCModel.FK_OrderDish_Dish" ManuallyRouted="false" />
+        <AssociationConnector Association="TortugaCModel.FK_Order_Table" ManuallyRouted="false" />
+        <AssociationConnector Association="TortugaCModel.FK_OrderDish_Order" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
